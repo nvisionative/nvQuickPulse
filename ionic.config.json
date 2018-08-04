@@ -1,0 +1,8 @@
+{
+  "name": "nvQuickGlimpse",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "bade168b"
+}
