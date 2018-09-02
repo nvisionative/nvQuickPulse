@@ -1,48 +1,56 @@
 {
-  "NAME": "Όνομα",
-  "PASSWORD": "Κωδικός",
+  "BACK_BUTTON_TEXT": "Back",
+
+  "NAME": "Name",
   "EMAIL": "Email",
-  "LOGIN": "Σύνδεση",
-  "SIGNUP": "Εγγραφή",
+  "USERNAME": "Username",
+  "PASSWORD": "Password",
+  "LOGIN": "Sign in",
+  "SIGNUP": "Sign up",
 
-  "TAB1_TITLE": "Αντικείμενα",
-  "TAB2_TITLE": "Αναζήτηση",
-  "TAB3_TITLE": "Ρυθμίσεις",
+  "TAB1_TITLE": "Repos",
+  "TAB2_TITLE": "Search",
+  "TAB3_TITLE": "Settings",
 
-  "MAP_TITLE": "Χάρτης",
+  "INTRO_SKIP_BUTTON": "Skip 💙  Beat",
+  "INTRO_CONTINUE_BUTTON": "Check Pulse",
 
-  "TUTORIAL_SLIDE1_TITLE": "Καλώς ορίσατε στο Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "Το <b>Ionic Super Starter</b> είναι ένα πλήρες βοηθητικό πακέτο εκκίνησης προγραμματισμού με το Ionic και περιέχει πληθώρα έτοιμων, ανεπτυγμένων σελίδων αλλά και βέλτιστων-πρακτικών εφαρμογής του.",
+  "INTRO_SLIDE1_TITLE": "We 💙  DNN",
+  "INTRO_SLIDE1_DESCRIPTION": "Let's face it - sometimes it's just hard to keep up with everything that is going on.",
 
-  "TUTORIAL_SLIDE2_TITLE": "Πως να χρησημοποιήσετε το Super Starter",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "Συγκεντρώστε οποιες σελίδες επιθυμείτε και αφαιρέστε εκείνες που δε σας χρειάζονται. Σας παρέχουμε πολλές συνηθισμένες διατάξεις σελίδων, όπως σελίδες σύνδεσης και εγγραφής, με καρτέλες ή επεξήγησης όπως η παρούσα.",
+  "INTRO_SLIDE2_TITLE": "We 💙  DNN Community",
+  "INTRO_SLIDE2_DESCRIPTION": "Within each and every <strong>DNN Community</strong> member, there is a unique and valued talent waiting to be discovered and shared.",
 
-  "TUTORIAL_SLIDE3_TITLE": "Ξεκινώντας",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Χρειάζεστε βοήθεια; Ρίχτε μια ματιά στο Super Starter README αρχείο για την πλήρη επεξήγηση.",
+  "INTRO_SLIDE3_TITLE": "We 💙  DNN Extensibility",
+  "INTRO_SLIDE3_DESCRIPTION": "<strong>DNN Platform</strong> is known for being a powerful framework that can be extended in so many ways.",
 
-  "SETTINGS_TITLE": "Ρυθμίσεις",
-  "SETTINGS_OPTION1": "Επιλογή 1",
-  "SETTINGS_OPTION2": "Επιλογή 2",
-  "SETTINGS_OPTION3": "Επιλογή 3",
-  "SETTINGS_OPTION4": "Επιλογή 4",
+  "INTRO_SLIDE4_TITLE": "Discover 💙 ",
 
-  "SETTINGS_PAGE_PROFILE": "Επεξεργασία Προφίλ",
+  "WELCOME_INTRO": "Quickly check the pulse of the DNN Open Source Community",
+  "WELCOME_OPTION_1": "DISCOVER",
+  "WELCOME_OPTION_2": "EXPLORE",
 
-  "WELCOME_TITLE": "Καλώς ορίσατε",
+  "SETTINGS_TITLE": "Settings",
+  "SETTINGS_OPTION1": "Option 1",
+  "SETTINGS_OPTION2": "Option 2",
+  "SETTINGS_OPTION3": "Option 3",
+  "SETTINGS_OPTION4": "Option 4",
 
-  "LOGIN_TITLE": "Σύνδεση",
-  "LOGIN_ERROR": "Η σύνδεση ήταν ανέφικτη. Παρακαλούμε ελέγξτε τις πληροφορίες λογαριασμού σας και ξαναπροσπαθήστε.",
-  "LOGIN_BUTTON": "Σύνδεση",
-  "SIGNUP_TITLE": "Εγγραφή",
-  "SIGNUP_ERROR": "Η δημιουργία λογαριασμού ήταν ανέφικτη. Παρακαλούμε ελέγξτε τις πληροφορίες λογαριασμού σας και ξαναπροσπαθήστε.",
-  "SIGNUP_BUTTON": "Εγγραφή",
+  "SETTINGS_PROFILE_BUTTON": "Edit Profile",
 
-  "LIST_MASTER_TITLE": "Αντικείμενα",
+  "SETTINGS_PAGE_PROFILE": "Edit Profile",
 
-  "ITEM_CREATE_TITLE": "Νέο Αντικείμενο",
-  "ITEM_CREATE_CHOOSE_IMAGE": "Προσθήκη φωτογραφίας",
+  "WELCOME_TITLE": "Welcome",
 
-  "CARDS_TITLE": "Κοινωνικά",
+  "LOGIN_TITLE": "Sign in",
+  "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
+  "LOGIN_BUTTON": "Sign in",
+  "SIGNUP_TITLE": "Sign up",
+  "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
+  "SIGNUP_BUTTON": "Sign up",
 
-  "SEARCH_TITLE": "Αναζήτηση"
+  "REPOS_TITLE": "Repositories",
+
+  "SEARCH_TITLE": "Search",
+  "SEARCH_PLACEHOLDER": "Search, e.g. \"Theme\""
 }

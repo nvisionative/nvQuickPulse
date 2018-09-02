@@ -1,48 +1,56 @@
 {
-  "NAME": "Imię",
-  "PASSWORD": "Hasło",
+  "BACK_BUTTON_TEXT": "Back",
+
+  "NAME": "Name",
   "EMAIL": "Email",
-  "LOGIN": "Zaloguj",
-  "SIGNUP": "Zarejestruj",
+  "USERNAME": "Username",
+  "PASSWORD": "Password",
+  "LOGIN": "Sign in",
+  "SIGNUP": "Sign up",
 
-  "TAB1_TITLE": "Pozycje",
-  "TAB2_TITLE": "Szukaj",
-  "TAB3_TITLE": "Ustawienia",
+  "TAB1_TITLE": "Repos",
+  "TAB2_TITLE": "Search",
+  "TAB3_TITLE": "Settings",
 
-  "MAP_TITLE": "Mapa",
+  "INTRO_SKIP_BUTTON": "Skip 💙  Beat",
+  "INTRO_CONTINUE_BUTTON": "Check Pulse",
 
-  "TUTORIAL_SLIDE1_TITLE": "Witaj w Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "<b>Ionic Super Starter</b> jest w pełni funkcjonalnym początkiem przygody z Ionic'iem, złożonym z wielu predefiniowanych szablonów i najlepszych praktyk programistycznych.",
+  "INTRO_SLIDE1_TITLE": "We 💙  DNN",
+  "INTRO_SLIDE1_DESCRIPTION": "Let's face it - sometimes it's just hard to keep up with everything that is going on.",
 
-  "TUTORIAL_SLIDE2_TITLE": "Jak korzystać z Super Startera",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "Pozbieraj różne typy stron, które chcesz usunąć, a także te, których nie chcesz. Mamy do zaoferowania wiele wspólnych stron i szablonów mobilnej aplikacji. Są to między innymi: strona logowania, rejestracji, taby, a także ten oto poradnik.",
+  "INTRO_SLIDE2_TITLE": "We 💙  DNN Community",
+  "INTRO_SLIDE2_DESCRIPTION": "Within each and every <strong>DNN Community</strong> member, there is a unique and valued talent waiting to be discovered and shared.",
 
-  "TUTORIAL_SLIDE3_TITLE": "Pierwsze kroki",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Potrzebujesz pomocy? Sprawdź plik README projektu Super Starter dla pełnego poradnika",
+  "INTRO_SLIDE3_TITLE": "We 💙  DNN Extensibility",
+  "INTRO_SLIDE3_DESCRIPTION": "<strong>DNN Platform</strong> is known for being a powerful framework that can be extended in so many ways.",
 
-  "SETTINGS_TITLE": "Ustawienia",
-  "SETTINGS_OPTION1": "Opcja 1",
-  "SETTINGS_OPTION2": "Opcja 2",
-  "SETTINGS_OPTION3": "Opcja 3",
-  "SETTINGS_OPTION4": "Opcja 4",
+  "INTRO_SLIDE4_TITLE": "Discover 💙 ",
 
-  "SETTINGS_PAGE_PROFILE": "Edytuj Profil",
+  "WELCOME_INTRO": "Quickly check the pulse of the DNN Open Source Community",
+  "WELCOME_OPTION_1": "DISCOVER",
+  "WELCOME_OPTION_2": "EXPLORE",
 
-  "WELCOME_TITLE": "Witaj",
+  "SETTINGS_TITLE": "Settings",
+  "SETTINGS_OPTION1": "Option 1",
+  "SETTINGS_OPTION2": "Option 2",
+  "SETTINGS_OPTION3": "Option 3",
+  "SETTINGS_OPTION4": "Option 4",
 
-  "LOGIN_TITLE": "Zaloguj",
-  "LOGIN_ERROR": "Nie udało się zalogować. Sprawdź raz jeszcze dane swoje konta i spróbuj ponownie.",
-  "LOGIN_BUTTON": "Zaloguj",
-  "SIGNUP_TITLE": "Zarejestruj",
-  "SIGNUP_ERROR": "Nie udało się stworzyć konta. Sprawdź raz jeszcze dane swoje konta i spróbuj ponownie.",
-  "SIGNUP_BUTTON": "Zarejestruj",
+  "SETTINGS_PROFILE_BUTTON": "Edit Profile",
 
-  "LIST_MASTER_TITLE": "Pozycje",
+  "SETTINGS_PAGE_PROFILE": "Edit Profile",
 
-  "ITEM_CREATE_TITLE": "Nowa pozycja",
-  "ITEM_CREATE_CHOOSE_IMAGE": "Dodaj obrazek",
+  "WELCOME_TITLE": "Welcome",
 
-  "CARDS_TITLE": "Społeczność",
+  "LOGIN_TITLE": "Sign in",
+  "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
+  "LOGIN_BUTTON": "Sign in",
+  "SIGNUP_TITLE": "Sign up",
+  "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
+  "SIGNUP_BUTTON": "Sign up",
 
-  "SEARCH_TITLE": "Szukaj"
+  "REPOS_TITLE": "Repositories",
+
+  "SEARCH_TITLE": "Search",
+  "SEARCH_PLACEHOLDER": "Search, e.g. \"Theme\""
 }

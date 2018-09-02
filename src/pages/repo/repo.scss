@@ -1,0 +1,54 @@
+page-repo {
+  .item-profile {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    /*height: 250px;*/
+  }
+
+  .item-detail {
+    width: 100%;
+    background: white;
+    position: absolute;
+  }
+  
+  .card h2 {
+    font-size: 1.8rem;
+    color: #00A6E1;
+    white-space: normal;
+  }
+  
+  .label {
+    white-space: normal;
+  }
+
+  .accordion-list {
+    background: color($colors, light);
+    height: 100%;
+  }
+  .section {
+    background: #fff;
+    color: #000;
+    margin-bottom: 4px;
+  }
+  .section-active {
+    background: #00A6E1;
+    color: #fff;
+  }
+
+  .child {
+    background: #e8e7e6;
+    color: #000;
+    margin-bottom: 4px;
+  }
+  .child-item {
+    background: #f3f2f1;
+    padding: 10px;
+  }
+  .label {
+    margin: 0px;
+  }
+  .list {
+    margin-bottom: 4px;
+  }
+}

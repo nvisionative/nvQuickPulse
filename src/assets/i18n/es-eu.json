@@ -1,35 +1,56 @@
 {
-    "NAME": "Izena",
-    "PASSWORD": "Pasahitza",
-    "EMAIL": "Email Helbidea",
-    "LOGIN": "Saioa Hasi",
-    "SIGNUP": "Izena Eman",
-    "TAB1_TITLE": "Artikuluak",
-    "TAB2_TITLE": "Bilatu",
-    "TAB3_TITLE": "Xehetasunak",
-    "MAP_TITLE": "Mapa",
-    "TUTORIAL_SLIDE1_TITLE": "Ongi etorri Ionic Super Starter-era",
-    "TUTORIAL_SLIDE1_DESCRIPTION": "<b>Ionic Super Starter</b> hasierako txantiloi bat da, 'page' askorekin eta ereduak",
-    "TUTORIAL_SLIDE2_TITLE": "Nola erabili Super Starter",
-    "TUTORIAL_SLIDE2_DESCRIPTION": "Sortu gustatzen zaizkizun orrialdeak eta ezabatu besteak. Adibidez: login  signup, tabs eta tutorialeak.",
-    "TUTORIAL_SLIDE3_TITLE": "Ikasten",
-    "TUTORIAL_SLIDE3_DESCRIPTION": "Laguntzarik nahi? irakurri README,Super Starter-ren tutorial osoa daukazu",
-    "SETTINGS_TITLE": "Xehetasunak",
-    "SETTINGS_OPTION1": "1 Aukera",
-    "SETTINGS_OPTION2": "2 Aukera",
-    "SETTINGS_OPTION3": "3 Aukera",
-    "SETTINGS_OPTION4": "4 Aukera",
-    "SETTINGS_PAGE_PROFILE": "Zure datual editatu",
-    "WELCOME_TITLE": "Ongi Etorri",
-    "LOGIN_TITLE": "Sesioa Hasi",
-    "LOGIN_ERROR": "Arazoa sesioa hasteko. Mesedez,sahiatu berriz zure datuak idazten.",
-    "LOGIN_BUTTON": "Sesioa Hasi",
-    "SIGNUP_TITLE": "Izena eman",
-    "SIGNUP_ERROR": "Arazoa kontua sortzen.or, Mesedez,sahiatu berriz zure datuak idazten.",
-    "SIGNUP_BUTTON": "Izena Eman",
-    "LIST_MASTER_TITLE": "Artikuluak",
-    "ITEM_CREATE_TITLE": "Artikulu berria",
-    "ITEM_CREATE_CHOOSE_IMAGE": "Argazkia sortu",
-    "CARDS_TITLE": "Sozial",
-    "SEARCH_TITLE": "Bilatu"
-}
+    "BACK_BUTTON_TEXT": "Back",
+  
+    "NAME": "Name",
+    "EMAIL": "Email",
+    "USERNAME": "Username",
+    "PASSWORD": "Password",
+    "LOGIN": "Sign in",
+    "SIGNUP": "Sign up",
+  
+    "TAB1_TITLE": "Repos",
+    "TAB2_TITLE": "Search",
+    "TAB3_TITLE": "Settings",
+  
+    "INTRO_SKIP_BUTTON": "Skip 💙  Beat",
+    "INTRO_CONTINUE_BUTTON": "Check Pulse",
+  
+    "INTRO_SLIDE1_TITLE": "We 💙  DNN",
+    "INTRO_SLIDE1_DESCRIPTION": "Let's face it - sometimes it's just hard to keep up with everything that is going on.",
+  
+    "INTRO_SLIDE2_TITLE": "We 💙  DNN Community",
+    "INTRO_SLIDE2_DESCRIPTION": "Within each and every <strong>DNN Community</strong> member, there is a unique and valued talent waiting to be discovered and shared.",
+  
+    "INTRO_SLIDE3_TITLE": "We 💙  DNN Extensibility",
+    "INTRO_SLIDE3_DESCRIPTION": "<strong>DNN Platform</strong> is known for being a powerful framework that can be extended in so many ways.",
+  
+    "INTRO_SLIDE4_TITLE": "Discover 💙 ",
+  
+    "WELCOME_INTRO": "Quickly check the pulse of the DNN Open Source Community",
+    "WELCOME_OPTION_1": "DISCOVER",
+    "WELCOME_OPTION_2": "EXPLORE",
+  
+    "SETTINGS_TITLE": "Settings",
+    "SETTINGS_OPTION1": "Option 1",
+    "SETTINGS_OPTION2": "Option 2",
+    "SETTINGS_OPTION3": "Option 3",
+    "SETTINGS_OPTION4": "Option 4",
+  
+    "SETTINGS_PROFILE_BUTTON": "Edit Profile",
+  
+    "SETTINGS_PAGE_PROFILE": "Edit Profile",
+  
+    "WELCOME_TITLE": "Welcome",
+  
+    "LOGIN_TITLE": "Sign in",
+    "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
+    "LOGIN_BUTTON": "Sign in",
+    "SIGNUP_TITLE": "Sign up",
+    "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
+    "SIGNUP_BUTTON": "Sign up",
+  
+    "REPOS_TITLE": "Repositories",
+  
+    "SEARCH_TITLE": "Search",
+    "SEARCH_PLACEHOLDER": "Search, e.g. \"Theme\""
+  }

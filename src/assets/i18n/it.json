@@ -1,68 +1,56 @@
 {
-  "BACK_BUTTON_TEXT": "Indietro",
+  "BACK_BUTTON_TEXT": "Back",
 
-  "NAME": "Nome",
+  "NAME": "Name",
   "EMAIL": "Email",
-  "USERNAME": "Nome utente",
+  "USERNAME": "Username",
   "PASSWORD": "Password",
-  "LOGIN": "Login",
-  "SIGNUP": "Registrati",
+  "LOGIN": "Sign in",
+  "SIGNUP": "Sign up",
 
-  "TAB1_TITLE": "Elenco",
-  "TAB2_TITLE": "Ricerca",
-  "TAB3_TITLE": "Impostazioni",
+  "TAB1_TITLE": "Repos",
+  "TAB2_TITLE": "Search",
+  "TAB3_TITLE": "Settings",
 
-  "MAP_TITLE": "Mappa",
+  "INTRO_SKIP_BUTTON": "Skip 💙  Beat",
+  "INTRO_CONTINUE_BUTTON": "Check Pulse",
 
-  "TUTORIAL_SKIP_BUTTON": "Salta",
-  "TUTORIAL_CONTINUE_BUTTON": "Continua",
+  "INTRO_SLIDE1_TITLE": "We 💙  DNN",
+  "INTRO_SLIDE1_DESCRIPTION": "Let's face it - sometimes it's just hard to keep up with everything that is going on.",
 
-  "TUTORIAL_SLIDE1_TITLE": "Benvenuti in Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "<b>Ionic Super Starter</b> è un applicazione di partenza per Ionic che contiene molte pagine di esempio già pronte realizzate seguendo delle best practices.",
+  "INTRO_SLIDE2_TITLE": "We 💙  DNN Community",
+  "INTRO_SLIDE2_DESCRIPTION": "Within each and every <strong>DNN Community</strong> member, there is a unique and valued talent waiting to be discovered and shared.",
 
-  "TUTORIAL_SLIDE2_TITLE": "Come usare Super Starter",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "Mantenete le pagine che volete e rimuovete quelle che non vi servono. Troverete diverse pagine di uso comune in questa applicazione come le pagine per il login e la registrazione, layout con tabs, e questa pagina di tutorial.",
+  "INTRO_SLIDE3_TITLE": "We 💙  DNN Extensibility",
+  "INTRO_SLIDE3_DESCRIPTION": "<strong>DNN Platform</strong> is known for being a powerful framework that can be extended in so many ways.",
 
-  "TUTORIAL_SLIDE3_TITLE": "Come iniziare",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Serve aiuto? Leggete il README del progetto Super Starter per avere maggiori informazioni sul tutorial completo.",
+  "INTRO_SLIDE4_TITLE": "Discover 💙 ",
 
-  "TUTORIAL_SLIDE4_TITLE": "Pronti ad iniziare?",
+  "WELCOME_INTRO": "Quickly check the pulse of the DNN Open Source Community",
+  "WELCOME_OPTION_1": "DISCOVER",
+  "WELCOME_OPTION_2": "EXPLORE",
 
-  "WELCOME_INTRO": "Il punto di partenza per la tua prossima applicazione Ionic",
+  "SETTINGS_TITLE": "Settings",
+  "SETTINGS_OPTION1": "Option 1",
+  "SETTINGS_OPTION2": "Option 2",
+  "SETTINGS_OPTION3": "Option 3",
+  "SETTINGS_OPTION4": "Option 4",
 
-  "SETTINGS_TITLE": "Impostazioni",
-  "SETTINGS_OPTION1": "Opzione 1",
-  "SETTINGS_OPTION2": "Opzione 2",
-  "SETTINGS_OPTION3": "Opzione 3",
-  "SETTINGS_OPTION4": "Opzione 4",
+  "SETTINGS_PROFILE_BUTTON": "Edit Profile",
 
-  "SETTINGS_PROFILE_BUTTON": "Modifica Profilo",
+  "SETTINGS_PAGE_PROFILE": "Edit Profile",
 
-  "SETTINGS_PAGE_PROFILE": "Modifica Profilo",
+  "WELCOME_TITLE": "Welcome",
 
-  "WELCOME_TITLE": "Benvenuto",
+  "LOGIN_TITLE": "Sign in",
+  "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
+  "LOGIN_BUTTON": "Sign in",
+  "SIGNUP_TITLE": "Sign up",
+  "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
+  "SIGNUP_BUTTON": "Sign up",
 
-  "LOGIN_TITLE": "Login",
-  "LOGIN_ERROR": "Non è possibile accedere. Ricontrollare le informazioni utente digitate prima di riprovare.",
-  "LOGIN_BUTTON": "Accedi",
-  "SIGNUP_TITLE": "Registrazione",
-  "SIGNUP_ERROR": "Non è possibile creare l'utente. Assicurarsi di aver inserito le informazioni utente correttamente e poi riprovare.",
-  "SIGNUP_BUTTON": "Registrati",
+  "REPOS_TITLE": "Repositories",
 
-  "LIST_MASTER_TITLE": "Elenco elementi",
-
-  "ITEM_CREATE_TITLE": "Nuovo elemento",
-  "ITEM_CREATE_CHOOSE_IMAGE": "Aggiungi immagine",
-
-  "ITEM_NAME_PLACEHOLDER": "Nome",
-  "ITEM_ABOUT_PLACEHOLDER": "Informazioni",
-
-  "DONE_BUTTON": "Fatto",
-  "CANCEL_BUTTON": "Annulla",
-  "DELETE_BUTTON": "Elimina",
-
-  "CARDS_TITLE": "Social",
-
-  "SEARCH_TITLE": "Ricerca",
-  "SEARCH_PLACEHOLDER": "Trova elementi in lista, ex. \"Donald Duck\""
+  "SEARCH_TITLE": "Search",
+  "SEARCH_PLACEHOLDER": "Search, e.g. \"Theme\""
 }

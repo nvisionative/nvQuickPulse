@@ -1,47 +1,56 @@
 {
-  "NAME": "ชื่อ",
-  "PASSWORD": "รหัสผ่าน",
-  "EMAIL": "อีเมล์",
-  "LOGIN": "เข้าระบบ",
-  "SIGNUP": "สมัครใช้งาน",
+  "BACK_BUTTON_TEXT": "Back",
 
-  "TAB1_TITLE": "รายการ",
-  "TAB2_TITLE": "ค้นหา",
-  "TAB3_TITLE": "ตั้งค่า",
+  "NAME": "Name",
+  "EMAIL": "Email",
+  "USERNAME": "Username",
+  "PASSWORD": "Password",
+  "LOGIN": "Sign in",
+  "SIGNUP": "Sign up",
 
-  "MAP_TITLE": "แผนที่",
+  "TAB1_TITLE": "Repos",
+  "TAB2_TITLE": "Search",
+  "TAB3_TITLE": "Settings",
 
-  "TUTORIAL_SLIDE1_TITLE": "ยินดีต้อนรับสู่ the Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "The <b>Ionic Super Starter</b> คือโปรเจคเริ่มต้น Ionic ที่มีหน้าจอพร้อมใช้งานและเขียนแบบ Best practices",
+  "INTRO_SKIP_BUTTON": "Skip 💙  Beat",
+  "INTRO_CONTINUE_BUTTON": "Check Pulse",
 
-  "TUTORIAL_SLIDE2_TITLE": "วิธีใช้ Super Starter",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "เก็บหน้าจอแบบที่ใช้ไว้ ลบที่ไม่ใช้ออก เราเตรียมหน้าจอที่ใช้กันประจำสำหรับแอพมือถือไว้ให้ เช่น หน้าล็อกอิน, หน้าสมัครใช้งาน, แทบ, และหน้าสอนใช้งานนี้",
+  "INTRO_SLIDE1_TITLE": "We 💙  DNN",
+  "INTRO_SLIDE1_DESCRIPTION": "Let's face it - sometimes it's just hard to keep up with everything that is going on.",
 
-  "TUTORIAL_SLIDE3_TITLE": "เริ่มต้นใช้งาน",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "ต้องการความช่วยเหลือ? ลองอ่าน tutorial ฉบับเต็มจากไฟล์ README",
+  "INTRO_SLIDE2_TITLE": "We 💙  DNN Community",
+  "INTRO_SLIDE2_DESCRIPTION": "Within each and every <strong>DNN Community</strong> member, there is a unique and valued talent waiting to be discovered and shared.",
 
-  "SETTINGS_TITLE": "ตั้งค่า",
-  "SETTINGS_OPTION1": "ตัวเลือก 1",
-  "SETTINGS_OPTION2": "ตัวเลือก 2",
-  "SETTINGS_OPTION3": "ตัวเลือก 3",
-  "SETTINGS_OPTION4": "ตัวเลือก 4",
+  "INTRO_SLIDE3_TITLE": "We 💙  DNN Extensibility",
+  "INTRO_SLIDE3_DESCRIPTION": "<strong>DNN Platform</strong> is known for being a powerful framework that can be extended in so many ways.",
 
-  "SETTINGS_PAGE_PROFILE": "แก้ไขข้อมูลส่วนตัว",
+  "INTRO_SLIDE4_TITLE": "Discover 💙 ",
 
-  "WELCOME_TITLE": "ยินดีต้อนรับ",
+  "WELCOME_INTRO": "Quickly check the pulse of the DNN Open Source Community",
+  "WELCOME_OPTION_1": "DISCOVER",
+  "WELCOME_OPTION_2": "EXPLORE",
 
-  "LOGIN_TITLE": "การเข้าระบบ",
-  "LOGIN_ERROR": "เข้าระบบไม่ได้. ตรวจสอบข้อมูลที่กรอกแล้วกรุณาลองใหม่",
-  "LOGIN_BUTTON": "เข้าระบบ",
-  "SIGNUP_TITLE": "สมัครใช้งาน",
-  "SIGNUP_ERROR": "ไม่สามารถสร้างผู้ใช้ใหม่ กรุณาตรวจสอบข้อมูลที่กรอกแล้วลองใหม่",
-  "SIGNUP_BUTTON": "สมัคร",
-  "LIST_MASTER_TITLE": "รายการ",
+  "SETTINGS_TITLE": "Settings",
+  "SETTINGS_OPTION1": "Option 1",
+  "SETTINGS_OPTION2": "Option 2",
+  "SETTINGS_OPTION3": "Option 3",
+  "SETTINGS_OPTION4": "Option 4",
 
-  "ITEM_CREATE_TITLE": "รายการใหม่",
-  "ITEM_CREATE_CHOOSE_IMAGE": "เพิ่มรูปภาพ",
+  "SETTINGS_PROFILE_BUTTON": "Edit Profile",
 
-  "CARDS_TITLE": "โซเชียลเน็ตเวิร์ค",
+  "SETTINGS_PAGE_PROFILE": "Edit Profile",
 
-  "SEARCH_TITLE": "ค้นหา"
+  "WELCOME_TITLE": "Welcome",
+
+  "LOGIN_TITLE": "Sign in",
+  "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
+  "LOGIN_BUTTON": "Sign in",
+  "SIGNUP_TITLE": "Sign up",
+  "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
+  "SIGNUP_BUTTON": "Sign up",
+
+  "REPOS_TITLE": "Repositories",
+
+  "SEARCH_TITLE": "Search",
+  "SEARCH_PLACEHOLDER": "Search, e.g. \"Theme\""
 }

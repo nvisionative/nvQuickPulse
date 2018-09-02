@@ -1,0 +1,181 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>{{ repo.name }}</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="visitGitHub(repo.html_url)">
+        <ion-icon name="logo-github"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-card>
+
+      <ion-item padding color="secondary">
+        <h1>{{repo.name}}</h1>
+        <p>{{repo.full_name}}</p>
+      </ion-item>
+  
+      <ion-row>
+        <ion-col col-3></ion-col>
+        <ion-col col-6 center text-center>
+            <img [src]="repo.owner.avatar_url">
+        </ion-col>
+        <ion-col col-3></ion-col>
+      </ion-row>
+  
+      <ion-card-content>
+        <p>{{repo.description}}</p>
+      </ion-card-content>
+  
+      <ion-row>
+        <ion-col col-6 center text-center>
+            <ion-icon name="star" color="primary" style="zoom:4.0;"></ion-icon><br />
+            <h2>{{repo.stargazers_count}}</h2>
+            Stargazers
+        </ion-col>
+        <ion-col col-6 center text-center>
+            <ion-icon name="git-network" color="primary" style="zoom:4.0;"></ion-icon><br />
+            <h2>{{repo.forks_count}}</h2>
+            Forks
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col col-6 center text-center>
+            <ion-icon name="code" color="primary" style="zoom:4.0;"></ion-icon><br />
+            <h2>{{repo.language}}</h2>
+            Language
+        </ion-col>
+        <ion-col col-6 center text-center>
+            <ion-icon name="help-buoy" color="primary" style="zoom:4.0;"></ion-icon><br />
+            <h2>{{repo.open_issues_count}}</h2>
+            Open Issues
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col col-6 center text-center>
+            <ion-icon name="git-branch" color="primary" style="zoom:4.0;"></ion-icon><br />
+            <h2>{{repo.default_branch}}</h2>
+            Default Branch
+        </ion-col>
+        <ion-col col-6 center text-center>
+            <ion-icon name="git-pull-request" color="primary" style="zoom:4.0;"></ion-icon><br />
+            <h2>{{pulls?.length || '0'}}</h2>
+            Pull Requests
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col col-12>&nbsp;</ion-col>
+      </ion-row>
+
+      <ion-list class="accordion-list">
+        <ion-list-header no-lines no-padding>
+          <!-- Toggle Button -->
+          <button ion-item (click)="toggleSection('releases')" detail-none [ngClass]="{'section-active': releasesSection, 'section': !releasesSection}">
+            <ion-icon item-left name="arrow-forward" *ngIf="!releasesSection"></ion-icon>
+            <ion-icon item-left name="arrow-down" *ngIf="releasesSection"></ion-icon>
+              RELEASES
+          </button>
+          <ion-list *ngIf="releasesSection" no-lines>
+              <!-- Second Level -->
+              <ion-list-header *ngFor="let release of releases; let j = index" no-padding>
+                <!-- Toggle Button -->
+                <button ion-item (click)="toggleItem('release', j)" *ngIf="releases.length > 0" class="child" detail-none>
+                  <ion-icon item-left name="add" *ngIf="!release.open"></ion-icon>
+                  <ion-icon item-left name="remove" *ngIf="release.open"></ion-icon>
+                  {{ release.name }}<br />
+                  <ion-note>{{ formatDateTime(release.published_at) }}</ion-note>
+                </button>
+                <ion-list *ngIf="release.assets.length > 0 && release.open">
+                  <!-- Third Level -->
+                  <ion-item *ngFor="let asset of release.assets; let k = index" detail-none class="child-item" text-wrap>
+                      <p><strong>{{asset.name}}</strong></p>
+                      <div center text-center>
+                      <ion-icon name="download" color="primary" style="zoom:4.0;"></ion-icon><br />
+                      <h2>{{asset.download_count}}</h2>
+                      <p>Downloads</p>
+                    </div>
+                  </ion-item>
+                </ion-list>
+              </ion-list-header>
+          </ion-list>
+        </ion-list-header>
+      </ion-list>
+
+      <ion-list class="accordion-list">
+        <ion-list-header no-lines no-padding>
+          <!-- Toggle Button -->
+          <button ion-item (click)="toggleSection('contributors')" detail-none [ngClass]="{'section-active': contributorsSection, 'section': !contributorsSection}">
+            <ion-icon item-left name="arrow-forward" *ngIf="!contributorsSection"></ion-icon>
+            <ion-icon item-left name="arrow-down" *ngIf="contributorsSection"></ion-icon>
+              TOP CONTRIBUTORS
+          </button>
+          <ion-list *ngIf="contributorsSection" no-lines>
+              <!-- Second Level -->
+              <ion-list-header *ngFor="let contributor of contributors; let j = index" no-padding>
+                <!-- Toggle Button -->
+                <button ion-item (click)="toggleItem('contributor', j)" *ngIf="contributors.length > 0" class="child" detail-none>
+                  <ion-icon item-left name="add" *ngIf="!contributor.open"></ion-icon>
+                  <ion-icon item-left name="remove" *ngIf="contributor.open"></ion-icon>
+                  {{ contributor.login }}
+                  <span color="primary" item-end>{{contributor.contributions}}</span>
+                </button>
+                <ion-list *ngIf="contributor.open">
+                  <!-- Third Level -->
+                  <ion-row>
+                    <ion-col col-3></ion-col>
+                    <ion-col col-6 center text-center>
+                        <img [src]="contributor.avatar_url">
+                    </ion-col>
+                    <ion-col col-3></ion-col>
+                  </ion-row>
+                  <ion-row>
+                    <ion-col col-12 center text-center>
+                      <h2>{{contributor.contributions}}</h2>
+                      Contributions
+                    </ion-col>
+                  </ion-row>
+                  <ion-row>
+                    <ion-col col-12>&nbsp;</ion-col>
+                  </ion-row>
+                </ion-list>
+              </ion-list-header>
+          </ion-list>
+        </ion-list-header>
+      </ion-list>
+
+      <!--
+      <ion-row>
+        <ion-col>
+            <ngx-charts-number-card scheme="vivid" [results]="single" bandColor="#0c0c0c"></ngx-charts-number-card>
+        </ion-col>
+      </ion-row>
+      -->
+      <!--
+        <ion-row>
+          <ion-col>
+              <ngx-charts-bar-vertical [scheme]="colorScheme" [results]="single" [gradient]="gradient" [xAxis]="showXAxis"
+              [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel"
+              [yAxisLabel]="yAxisLabel" [yAxisTicks]="yAxisTicks" (select)="onSelect($event)">
+            </ngx-charts-bar-vertical>
+          </ion-col>
+        </ion-row>
+      -->  
+      <ion-row>
+        <ion-col center text-center>
+          <ion-note>
+            <strong>Last Activity</strong><br />
+            {{formatDateTime(repo.updated_at)}}
+          </ion-note>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+  
+</ion-content>

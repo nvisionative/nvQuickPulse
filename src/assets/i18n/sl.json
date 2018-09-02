@@ -1,48 +1,56 @@
 {
-  "NAME": "Ime",
-  "PASSWORD": "Geslo",
-  "EMAIL": "E-mail",
-  "LOGIN": "Prijava",
-  "SIGNUP": "Ustvari račun",
+  "BACK_BUTTON_TEXT": "Back",
 
-  "TAB1_TITLE": "Elementi",
-  "TAB2_TITLE": "Iskanje",
-  "TAB3_TITLE": "Nastavitve",
+  "NAME": "Name",
+  "EMAIL": "Email",
+  "USERNAME": "Username",
+  "PASSWORD": "Password",
+  "LOGIN": "Sign in",
+  "SIGNUP": "Sign up",
 
-  "MAP_TITLE": "Zemljevid",
+  "TAB1_TITLE": "Repos",
+  "TAB2_TITLE": "Search",
+  "TAB3_TITLE": "Settings",
 
-  "TUTORIAL_SLIDE1_TITLE": "Dobrodošli v Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "<b>Ionic Super Starter</b> je celosten Ionic začetni paket z pestrim naborom funkcionalnosti in uporablja najboljše prakse razvoja Ionic aplikacij.",
+  "INTRO_SKIP_BUTTON": "Skip 💙  Beat",
+  "INTRO_CONTINUE_BUTTON": "Check Pulse",
 
-  "TUTORIAL_SLIDE2_TITLE": "Kako uporabljati Super Starter",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "Sestavite poljubne tipe strani in odstranite tiste, ki jih ne potrebujete. Ponujamo vam mnogo različnih oblik strani, npr. stran za prijavo oz. vpis, stran z zavihki in stran tega vodiča.",
+  "INTRO_SLIDE1_TITLE": "We 💙  DNN",
+  "INTRO_SLIDE1_DESCRIPTION": "Let's face it - sometimes it's just hard to keep up with everything that is going on.",
 
-  "TUTORIAL_SLIDE3_TITLE": "Kako začeti?",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Potrebujete pomoč? Poglejte si Super Starter README datoteko za celoten vodič.",
+  "INTRO_SLIDE2_TITLE": "We 💙  DNN Community",
+  "INTRO_SLIDE2_DESCRIPTION": "Within each and every <strong>DNN Community</strong> member, there is a unique and valued talent waiting to be discovered and shared.",
 
-  "SETTINGS_TITLE": "Nastavitve",
-  "SETTINGS_OPTION1": "Opcija 1",
-  "SETTINGS_OPTION2": "Opcija 2",
-  "SETTINGS_OPTION3": "Opcija 3",
-  "SETTINGS_OPTION4": "Opcija 4",
+  "INTRO_SLIDE3_TITLE": "We 💙  DNN Extensibility",
+  "INTRO_SLIDE3_DESCRIPTION": "<strong>DNN Platform</strong> is known for being a powerful framework that can be extended in so many ways.",
 
-  "SETTINGS_PAGE_PROFILE": "Uredi profil",
+  "INTRO_SLIDE4_TITLE": "Discover 💙 ",
 
-  "WELCOME_TITLE": "Dobrodošli",
+  "WELCOME_INTRO": "Quickly check the pulse of the DNN Open Source Community",
+  "WELCOME_OPTION_1": "DISCOVER",
+  "WELCOME_OPTION_2": "EXPLORE",
 
-  "LOGIN_TITLE": "Prijava",
-  "LOGIN_ERROR": "Napaka pri prijavi. Prosimo preglejte prijavne podatke računa in poskusite ponovno.",
-  "LOGIN_BUTTON": "Prijava",
-  "SIGNUP_TITLE": "Ustvari račun",
-  "SIGNUP_ERROR": "Napaka pri kreiranju računa. Prosimo preglejte podatke kreiranega računa in poskusite ponovno. ",
-  "SIGNUP_BUTTON": "Ustvari račun",
+  "SETTINGS_TITLE": "Settings",
+  "SETTINGS_OPTION1": "Option 1",
+  "SETTINGS_OPTION2": "Option 2",
+  "SETTINGS_OPTION3": "Option 3",
+  "SETTINGS_OPTION4": "Option 4",
 
-  "LIST_MASTER_TITLE": "Elementi",
+  "SETTINGS_PROFILE_BUTTON": "Edit Profile",
 
-  "ITEM_CREATE_TITLE": "Dodaj element",
-  "ITEM_CREATE_CHOOSE_IMAGE": "Dodaj sliko",
+  "SETTINGS_PAGE_PROFILE": "Edit Profile",
 
-  "CARDS_TITLE": "Socialno",
+  "WELCOME_TITLE": "Welcome",
 
-  "SEARCH_TITLE": "Iskanje"
+  "LOGIN_TITLE": "Sign in",
+  "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
+  "LOGIN_BUTTON": "Sign in",
+  "SIGNUP_TITLE": "Sign up",
+  "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
+  "SIGNUP_BUTTON": "Sign up",
+
+  "REPOS_TITLE": "Repositories",
+
+  "SEARCH_TITLE": "Search",
+  "SEARCH_PLACEHOLDER": "Search, e.g. \"Theme\""
 }

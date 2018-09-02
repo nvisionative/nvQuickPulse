@@ -1,68 +1,56 @@
 {
-  "BACK_BUTTON_TEXT": "رجوع",
+  "BACK_BUTTON_TEXT": "Back",
 
-  "NAME": "الاسم",
-  "EMAIL": "البريد الإلكتروني",
-  "USERNAME": "اسم المستخدم",
-  "PASSWORD": "كلمة السر",
-  "LOGIN": "تسجيل الدخول",
-  "SIGNUP": "انشاء الحساب",
+  "NAME": "Name",
+  "EMAIL": "Email",
+  "USERNAME": "Username",
+  "PASSWORD": "Password",
+  "LOGIN": "Sign in",
+  "SIGNUP": "Sign up",
 
-  "TAB1_TITLE": "عناصر",
-  "TAB2_TITLE": "بحث",
-  "TAB3_TITLE": "إعدادات",
+  "TAB1_TITLE": "Repos",
+  "TAB2_TITLE": "Search",
+  "TAB3_TITLE": "Settings",
 
-  "MAP_TITLE": "خريطة",
+  "INTRO_SKIP_BUTTON": "Skip 💙  Beat",
+  "INTRO_CONTINUE_BUTTON": "Check Pulse",
 
-  "TUTORIAL_SKIP_BUTTON": "تخطى",
-  "TUTORIAL_CONTINUE_BUTTON": "استمر",
+  "INTRO_SLIDE1_TITLE": "We 💙  DNN",
+  "INTRO_SLIDE1_DESCRIPTION": "Let's face it - sometimes it's just hard to keep up with everything that is going on.",
 
-  "TUTORIAL_SLIDE1_TITLE": "مرحبا بكم في عدة البدء Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "<b>Ionic Super Starter</b> عبارة عن عدة لبدء التطوير بواسطة Ionic. وهي تتميز بالعديد من الصفحات وأفضل الممارسات.",
+  "INTRO_SLIDE2_TITLE": "We 💙  DNN Community",
+  "INTRO_SLIDE2_DESCRIPTION": "Within each and every <strong>DNN Community</strong> member, there is a unique and valued talent waiting to be discovered and shared.",
 
-  "TUTORIAL_SLIDE2_TITLE": "كيفية استخدام Ionic Super Starter",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "يمكنك تجميع أنواع الصفحات المختلفة التي ترغب بها وإزالة الباقي. وتوفر عدة البدء ​​العديد من تخطيطات الصفحات الاكثر شيوعا في التطبيقات النقالة، مثل صفحات تسجيل الدخول وانشاء الحساب، علامات التبويب، وهذه الصفحة التعليمية.",
+  "INTRO_SLIDE3_TITLE": "We 💙  DNN Extensibility",
+  "INTRO_SLIDE3_DESCRIPTION": "<strong>DNN Platform</strong> is known for being a powerful framework that can be extended in so many ways.",
 
-  "TUTORIAL_SLIDE3_TITLE": "كيفية الشروع",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "هل تحتاج إلى مساعدة؟ يمكنك الاطلاع على README لبرنامج تعليمي كامل على Ionic Super Starter",
+  "INTRO_SLIDE4_TITLE": "Discover 💙 ",
 
-  "TUTORIAL_SLIDE4_TITLE": "مستعد للعب؟",
+  "WELCOME_INTRO": "Quickly check the pulse of the DNN Open Source Community",
+  "WELCOME_OPTION_1": "DISCOVER",
+  "WELCOME_OPTION_2": "EXPLORE",
 
-  "WELCOME_INTRO": "نقطة الانطلاق لتطبيق Ionic العظيم الخاص بك",
+  "SETTINGS_TITLE": "Settings",
+  "SETTINGS_OPTION1": "Option 1",
+  "SETTINGS_OPTION2": "Option 2",
+  "SETTINGS_OPTION3": "Option 3",
+  "SETTINGS_OPTION4": "Option 4",
 
-  "SETTINGS_TITLE": "إعدادات",
-  "SETTINGS_OPTION1": "خيار 1",
-  "SETTINGS_OPTION2": "خيار 2",
-  "SETTINGS_OPTION3": "خيار 3",
-  "SETTINGS_OPTION4": "خيار 4",
+  "SETTINGS_PROFILE_BUTTON": "Edit Profile",
 
-  "SETTINGS_PROFILE_BUTTON": "تعديل الملف الشخصي",
+  "SETTINGS_PAGE_PROFILE": "Edit Profile",
 
-  "SETTINGS_PAGE_PROFILE": "تعديل الملف الشخصي",
+  "WELCOME_TITLE": "Welcome",
 
-  "WELCOME_TITLE": "مرحبا",
+  "LOGIN_TITLE": "Sign in",
+  "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
+  "LOGIN_BUTTON": "Sign in",
+  "SIGNUP_TITLE": "Sign up",
+  "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
+  "SIGNUP_BUTTON": "Sign up",
 
-  "LOGIN_TITLE": "تسجيل الدخول",
-  "LOGIN_ERROR": "تعذر تسجيل الدخول. يرجى التحقق من معلومات حسابك وإعادة المحاولة.",
-  "LOGIN_BUTTON": "تسجيل الدخول",
-  "SIGNUP_TITLE": "انشاء الحساب",
-  "SIGNUP_ERROR": "تعذر إنشاء الحساب. يرجى التحقق من معلومات حسابك وإعادة المحاولة.",
-  "SIGNUP_BUTTON": "انشاء الحساب",
+  "REPOS_TITLE": "Repositories",
 
-  "LIST_MASTER_TITLE": "عناصر",
-
-  "ITEM_CREATE_TITLE": "عنصر جديد",
-  "ITEM_CREATE_CHOOSE_IMAGE": "إضافة صورة",
-
-  "ITEM_NAME_PLACEHOLDER": "الاسم",
-  "ITEM_ABOUT_PLACEHOLDER": "عن",
-
-  "DONE_BUTTON": "انهاء",
-  "CANCEL_BUTTON": "الغاء",
-  "DELETE_BUTTON": "حذف",
-
-  "CARDS_TITLE": "اجتماعي",
-
-  "SEARCH_TITLE": "بحث",
-  "SEARCH_PLACEHOLDER": "ابحث في قائمة العناصر، مثل \"Donald Duck\""
+  "SEARCH_TITLE": "Search",
+  "SEARCH_PLACEHOLDER": "Search, e.g. \"Theme\""
 }

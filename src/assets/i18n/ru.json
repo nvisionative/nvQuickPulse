@@ -1,48 +1,56 @@
 {
-  "NAME": "Имя",
-  "PASSWORD": "Пароль",
+  "BACK_BUTTON_TEXT": "Back",
+
+  "NAME": "Name",
   "EMAIL": "Email",
-  "LOGIN": "Вход",
-  "SIGNUP": "Регистрация",
+  "USERNAME": "Username",
+  "PASSWORD": "Password",
+  "LOGIN": "Sign in",
+  "SIGNUP": "Sign up",
 
-  "TAB1_TITLE": "Список",
-  "TAB2_TITLE": "Поиск",
-  "TAB3_TITLE": "Настройки",
+  "TAB1_TITLE": "Repos",
+  "TAB2_TITLE": "Search",
+  "TAB3_TITLE": "Settings",
 
-  "MAP_TITLE": "Карта",
+  "INTRO_SKIP_BUTTON": "Skip 💙  Beat",
+  "INTRO_CONTINUE_BUTTON": "Check Pulse",
 
-  "TUTORIAL_SLIDE1_TITLE": "Добро пожаловать в Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "<b>Ionic Super Starter</b> это полноценный набор примеров Ionic с большим количеством готовых страниц и лучших практик.",
+  "INTRO_SLIDE1_TITLE": "We 💙  DNN",
+  "INTRO_SLIDE1_DESCRIPTION": "Let's face it - sometimes it's just hard to keep up with everything that is going on.",
 
-  "TUTORIAL_SLIDE2_TITLE": "Как использовать Super Starter",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "Сделайте свой набор из многочисленных страниц разного типа. Все лишнее можете выкинуть. Мы предоставили много типовых макетов страниц мобильных приложений, таких как страницы регистрации, вкладки, и страницы с руководством, наподобие этой.",
+  "INTRO_SLIDE2_TITLE": "We 💙  DNN Community",
+  "INTRO_SLIDE2_DESCRIPTION": "Within each and every <strong>DNN Community</strong> member, there is a unique and valued talent waiting to be discovered and shared.",
 
-  "TUTORIAL_SLIDE3_TITLE": "Начало работы",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Нужна помощь? Вы найдете полное руководство к Super Starter в файле README",
+  "INTRO_SLIDE3_TITLE": "We 💙  DNN Extensibility",
+  "INTRO_SLIDE3_DESCRIPTION": "<strong>DNN Platform</strong> is known for being a powerful framework that can be extended in so many ways.",
 
-  "SETTINGS_TITLE": "Настройки",
-  "SETTINGS_OPTION1": "Опция 1",
-  "SETTINGS_OPTION2": "Опция 2",
-  "SETTINGS_OPTION3": "Опция 3",
-  "SETTINGS_OPTION4": "Опция 4",
+  "INTRO_SLIDE4_TITLE": "Discover 💙 ",
 
-  "SETTINGS_PAGE_PROFILE": "Редактирование профиля",
+  "WELCOME_INTRO": "Quickly check the pulse of the DNN Open Source Community",
+  "WELCOME_OPTION_1": "DISCOVER",
+  "WELCOME_OPTION_2": "EXPLORE",
 
-  "WELCOME_TITLE": "Добро пожаловать",
+  "SETTINGS_TITLE": "Settings",
+  "SETTINGS_OPTION1": "Option 1",
+  "SETTINGS_OPTION2": "Option 2",
+  "SETTINGS_OPTION3": "Option 3",
+  "SETTINGS_OPTION4": "Option 4",
 
-  "LOGIN_TITLE": "Вход",
-  "LOGIN_ERROR": "Невозможно войти. Пожалуйста проверьте информацию о Вашей учетной записи и попробуйте войти еще раз.",
-  "LOGIN_BUTTON": "Войти",
-  "SIGNUP_TITLE": "Регистрация",
-  "SIGNUP_ERROR": "Невозможно создать учетную запись. Пожалуйста проверьте информацию о Вашей учетной записи и попробуйте еще раз.",
-  "SIGNUP_BUTTON": "Регистрация",
+  "SETTINGS_PROFILE_BUTTON": "Edit Profile",
 
-  "LIST_MASTER_TITLE": "Список",
+  "SETTINGS_PAGE_PROFILE": "Edit Profile",
 
-  "ITEM_CREATE_TITLE": "Новый элемент",
-  "ITEM_CREATE_CHOOSE_IMAGE": "Добавить изображение",
+  "WELCOME_TITLE": "Welcome",
 
-  "CARDS_TITLE": "Социальный",
+  "LOGIN_TITLE": "Sign in",
+  "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
+  "LOGIN_BUTTON": "Sign in",
+  "SIGNUP_TITLE": "Sign up",
+  "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
+  "SIGNUP_BUTTON": "Sign up",
 
-  "SEARCH_TITLE": "Поиск"
+  "REPOS_TITLE": "Repositories",
+
+  "SEARCH_TITLE": "Search",
+  "SEARCH_PLACEHOLDER": "Search, e.g. \"Theme\""
 }

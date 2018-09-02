@@ -1,48 +1,56 @@
 {
-  "NAME": "שם",
-  "PASSWORD": "סיסמא",
-  "EMAIL": "דואר אלקטרוני",
-  "LOGIN": "התחברות",
-  "SIGNUP": "הרשמה",
+  "BACK_BUTTON_TEXT": "Back",
 
-  "TAB1_TITLE": "פריטים",
-  "TAB2_TITLE": "חיפוש",
-  "TAB3_TITLE": "הגדרות",
+  "NAME": "Name",
+  "EMAIL": "Email",
+  "USERNAME": "Username",
+  "PASSWORD": "Password",
+  "LOGIN": "Sign in",
+  "SIGNUP": "Sign up",
 
-  "MAP_TITLE": "מפה",
+  "TAB1_TITLE": "Repos",
+  "TAB2_TITLE": "Search",
+  "TAB3_TITLE": "Settings",
 
-  "TUTORIAL_SLIDE1_TITLE": "ברוכים הבאים ל-Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "ה-<b>Ionic Super Starter</b> הוא Starter מלא בתכונות עם הרבה דפים מוכנים ותרגולים הכי טובים.",
+  "INTRO_SKIP_BUTTON": "Skip 💙  Beat",
+  "INTRO_CONTINUE_BUTTON": "Check Pulse",
 
-  "TUTORIAL_SLIDE2_TITLE": "איך להשתמש ב-Super Starter",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "Assemble the various page types you want and remove the ones you don't. We've provided many common mobile app page layouts, like login and signup pages, tabs, and this tutorial page.",
+  "INTRO_SLIDE1_TITLE": "We 💙  DNN",
+  "INTRO_SLIDE1_DESCRIPTION": "Let's face it - sometimes it's just hard to keep up with everything that is going on.",
 
-  "TUTORIAL_SLIDE3_TITLE": "התחלה",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "צריך עזרה? תבדקו את ה-README של ה-Super Starter להדרכה מלאה.",
+  "INTRO_SLIDE2_TITLE": "We 💙  DNN Community",
+  "INTRO_SLIDE2_DESCRIPTION": "Within each and every <strong>DNN Community</strong> member, there is a unique and valued talent waiting to be discovered and shared.",
 
-  "SETTINGS_TITLE": "הגדרות",
-  "SETTINGS_OPTION1": "אופציה 1",
-  "SETTINGS_OPTION2": "אופציה 2",
-  "SETTINGS_OPTION3": "אופציה 3",
-  "SETTINGS_OPTION4": "אופציה 4",
+  "INTRO_SLIDE3_TITLE": "We 💙  DNN Extensibility",
+  "INTRO_SLIDE3_DESCRIPTION": "<strong>DNN Platform</strong> is known for being a powerful framework that can be extended in so many ways.",
 
-  "SETTINGS_PAGE_PROFILE": "עריכת פרופיל",
+  "INTRO_SLIDE4_TITLE": "Discover 💙 ",
 
-  "WELCOME_TITLE": "ברוכים הבאים",
+  "WELCOME_INTRO": "Quickly check the pulse of the DNN Open Source Community",
+  "WELCOME_OPTION_1": "DISCOVER",
+  "WELCOME_OPTION_2": "EXPLORE",
 
-  "LOGIN_TITLE": "התחברות",
-  "LOGIN_ERROR": "לא ניתן להתחבר. אנא בדוק את פרטי ההתחברות ונסה שנית.",
-  "LOGIN_BUTTON": "התחבר",
-  "SIGNUP_TITLE": "הרשמה",
-  "SIGNUP_ERROR": "לא ניתן ליצור חשבון. אנא בדוק את פרטי ההתחברות ונסה שנית.",
-  "SIGNUP_BUTTON": "הירשם",
+  "SETTINGS_TITLE": "Settings",
+  "SETTINGS_OPTION1": "Option 1",
+  "SETTINGS_OPTION2": "Option 2",
+  "SETTINGS_OPTION3": "Option 3",
+  "SETTINGS_OPTION4": "Option 4",
 
-  "LIST_MASTER_TITLE": "פריטים",
+  "SETTINGS_PROFILE_BUTTON": "Edit Profile",
 
-  "ITEM_CREATE_TITLE": "פריט חדש",
-  "ITEM_CREATE_CHOOSE_IMAGE": "הוסף תמונה",
+  "SETTINGS_PAGE_PROFILE": "Edit Profile",
 
-  "CARDS_TITLE": "חברתי",
+  "WELCOME_TITLE": "Welcome",
 
-  "SEARCH_TITLE": "חיפוש"
+  "LOGIN_TITLE": "Sign in",
+  "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
+  "LOGIN_BUTTON": "Sign in",
+  "SIGNUP_TITLE": "Sign up",
+  "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
+  "SIGNUP_BUTTON": "Sign up",
+
+  "REPOS_TITLE": "Repositories",
+
+  "SEARCH_TITLE": "Search",
+  "SEARCH_PLACEHOLDER": "Search, e.g. \"Theme\""
 }

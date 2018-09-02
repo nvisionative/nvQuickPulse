@@ -1,48 +1,56 @@
 {
-  "NAME": "Navn",
-  "PASSWORD": "Adgangskode",
+  "BACK_BUTTON_TEXT": "Back",
+
+  "NAME": "Name",
   "EMAIL": "Email",
-  "LOGIN": "Log Ind",
-  "SIGNUP": "Tilmeld",
+  "USERNAME": "Username",
+  "PASSWORD": "Password",
+  "LOGIN": "Sign in",
+  "SIGNUP": "Sign up",
 
-  "TAB1_TITLE": "Poster",
-  "TAB2_TITLE": "Søg",
-  "TAB3_TITLE": "Indstillinger",
+  "TAB1_TITLE": "Repos",
+  "TAB2_TITLE": "Search",
+  "TAB3_TITLE": "Settings",
 
-  "MAP_TITLE": "Kort",
+  "INTRO_SKIP_BUTTON": "Skip 💙  Beat",
+  "INTRO_CONTINUE_BUTTON": "Check Pulse",
 
-  "TUTORIAL_SLIDE1_TITLE": "Velkommen til Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "<b>Ionic Super Starter</b> er en fuldt funktionsdygtig Ionic starter med mange køreklare sidetyper bygget efter best practices.",
+  "INTRO_SLIDE1_TITLE": "We 💙  DNN",
+  "INTRO_SLIDE1_DESCRIPTION": "Let's face it - sometimes it's just hard to keep up with everything that is going on.",
 
-  "TUTORIAL_SLIDE2_TITLE": "Sådan bruges Super Starter",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "Sammensæt de forskellige sidetyper du ønsker at bruge og fjern dem du ikke har behov for. Vi leverer mange gænse mobil app sider, som f.eks. login- og registreringssider, faneblade, og denne introduktionsside.",
+  "INTRO_SLIDE2_TITLE": "We 💙  DNN Community",
+  "INTRO_SLIDE2_DESCRIPTION": "Within each and every <strong>DNN Community</strong> member, there is a unique and valued talent waiting to be discovered and shared.",
 
-  "TUTORIAL_SLIDE3_TITLE": "Kom i gang",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Har du brug for hjælp? Kig på Super Starter README for en omfattende forklaring.",
+  "INTRO_SLIDE3_TITLE": "We 💙  DNN Extensibility",
+  "INTRO_SLIDE3_DESCRIPTION": "<strong>DNN Platform</strong> is known for being a powerful framework that can be extended in so many ways.",
 
-  "SETTINGS_TITLE": "Indstillinger",
-  "SETTINGS_OPTION1": "Mulighed 1",
-  "SETTINGS_OPTION2": "Mulighed 2",
-  "SETTINGS_OPTION3": "Mulighed 3",
-  "SETTINGS_OPTION4": "Mulighed 4",
+  "INTRO_SLIDE4_TITLE": "Discover 💙 ",
 
-  "SETTINGS_PAGE_PROFILE": "Rediger Profil",
+  "WELCOME_INTRO": "Quickly check the pulse of the DNN Open Source Community",
+  "WELCOME_OPTION_1": "DISCOVER",
+  "WELCOME_OPTION_2": "EXPLORE",
 
-  "WELCOME_TITLE": "Velkommen",
+  "SETTINGS_TITLE": "Settings",
+  "SETTINGS_OPTION1": "Option 1",
+  "SETTINGS_OPTION2": "Option 2",
+  "SETTINGS_OPTION3": "Option 3",
+  "SETTINGS_OPTION4": "Option 4",
 
-  "LOGIN_TITLE": "Log ind",
-  "LOGIN_ERROR": "Fejl ved log ind. Kontroller venligst kontooplysningerne og prøv igen.",
-  "LOGIN_BUTTON": "Log ind",
-  "SIGNUP_TITLE": "Registrer",
-  "SIGNUP_ERROR": "Fejl ved oprettelse. Kontroller venligst kontooplysningerne og prøv igen.",
-  "SIGNUP_BUTTON": "Registrer",
+  "SETTINGS_PROFILE_BUTTON": "Edit Profile",
 
-  "LIST_MASTER_TITLE": "Poster",
+  "SETTINGS_PAGE_PROFILE": "Edit Profile",
 
-  "ITEM_CREATE_TITLE": "Ny post",
-  "ITEM_CREATE_CHOOSE_IMAGE": "Tilføj billede",
+  "WELCOME_TITLE": "Welcome",
 
-  "CARDS_TITLE": "Social",
+  "LOGIN_TITLE": "Sign in",
+  "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
+  "LOGIN_BUTTON": "Sign in",
+  "SIGNUP_TITLE": "Sign up",
+  "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
+  "SIGNUP_BUTTON": "Sign up",
 
-  "SEARCH_TITLE": "Søg"
+  "REPOS_TITLE": "Repositories",
+
+  "SEARCH_TITLE": "Search",
+  "SEARCH_PLACEHOLDER": "Search, e.g. \"Theme\""
 }

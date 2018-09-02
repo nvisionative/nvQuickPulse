@@ -1,0 +1,107 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>{{ 'REPOS_TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+  <ion-searchbar debounce="1000" [showCancelButton]="true" (ionCancel)="loadData('')" (ionInput)="searchItems($event)" placeholder="{{ 'SEARCH_PLACEHOLDER' | translate }}">{{totalData}}</ion-searchbar>
+  <ion-item color="light" class="repo-count" center text-center>
+    {{totalData}} Repos Found
+  </ion-item>
+
+</ion-header>
+
+<ion-content>
+
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <ion-card *ngFor="let item of currentItems">
+
+    <ion-item color="secondary">
+      <h1>{{item.name}}</h1>
+      <p>{{item.full_name}}</p>
+    </ion-item>
+
+    <ion-row>
+      <ion-col col-3></ion-col>
+      <ion-col col-6 center text-center>
+          <img [src]="item.owner.avatar_url">
+      </ion-col>
+      <ion-col col-3></ion-col>
+    </ion-row>
+    <!--<img [src]="item.image">-->
+
+    <ion-card-content>
+      <p>{{item.description}}</p>
+    </ion-card-content>
+
+    <ion-row>
+        <ion-col col-3></ion-col>
+        <ion-col col-6 center text-center>
+            <ion-icon name="star" color="primary" style="zoom:3.0;"></ion-icon><br />
+            {{item.stargazers_count}} Stargazers
+        </ion-col>
+        <ion-col col-3></ion-col>
+      </ion-row>
+  <!--
+      <ion-row>
+      <ion-col col-6>
+        <button ion-button color="primary" clear icon-start>
+            <ion-icon name='thumbs-up'></ion-icon>
+            {{item.watchers}} Watchers
+          </button>
+      </ion-col>
+      <ion-col col-6>
+        <button ion-button color="primary" clear icon-start>
+            <ion-icon name='text'></ion-icon>
+            {{item.open_issues}} Issues
+          </button>
+      </ion-col>
+    </ion-row>
+-->
+    <ion-row>
+      <ion-col center text-center>
+        <button ion-button (click)="openItem(item)" icon-end>Check Pulse <ion-icon name="pulse"></ion-icon></button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col center text-center>
+        <ion-note>
+          <strong>Last Activity</strong><br />
+          {{formatDateTime(item.updated_at)}}
+        </ion-note>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+<!--
+  <ion-list>
+    <ion-item-sliding *ngFor="let item of currentItems">
+      <button ion-item (click)="openItem(item)">
+        <ion-avatar item-start>
+          <img [src]="item.owner.avatar_url" />
+        </ion-avatar>
+        <h2>{{item.full_name}}</h2>
+        <p>{{item.description}}</p>
+-->
+        <!--<ion-note item-end *ngIf="item.full_name">{{item.full_name}}</ion-note>-->
+<!--      </button>
+
+      <ion-item-options>
+        <button ion-button color="danger" (click)="deleteItem(item)">
+          {{ 'DELETE_BUTTON' | translate }}
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+-->
+
+  <ion-infinite-scroll threshold="100px" (ionInfinite)="loadMoreData($event)" *ngIf="page < totalPage">
+    <ion-infinite-scroll-content
+      loadingSpinner="bubbles"
+      loadingText="Loading more data...">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+</ion-content>

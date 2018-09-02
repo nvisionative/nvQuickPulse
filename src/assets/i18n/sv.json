@@ -1,48 +1,56 @@
 {
-  "NAME": "Namn",
-  "PASSWORD": "Lösenord",
-  "EMAIL": "E-post",
-  "LOGIN": "Logga in",
-  "SIGNUP": "Skapa konto",
+  "BACK_BUTTON_TEXT": "Back",
 
-  "TAB1_TITLE": "Inlägg",
-  "TAB2_TITLE": "Sök",
-  "TAB3_TITLE": "Inställningar",
+  "NAME": "Name",
+  "EMAIL": "Email",
+  "USERNAME": "Username",
+  "PASSWORD": "Password",
+  "LOGIN": "Sign in",
+  "SIGNUP": "Sign up",
 
-  "MAP_TITLE": "Karta",
+  "TAB1_TITLE": "Repos",
+  "TAB2_TITLE": "Search",
+  "TAB3_TITLE": "Settings",
 
-  "TUTORIAL_SLIDE1_TITLE": "Välkommen till Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "<b>Ionic Super Starter</b> är ett fullfjädrat startpaket för Ionic med många färdigbyggda sidor skapade med bästa praxis.",
+  "INTRO_SKIP_BUTTON": "Skip 💙  Beat",
+  "INTRO_CONTINUE_BUTTON": "Check Pulse",
 
-  "TUTORIAL_SLIDE2_TITLE": "Hur man använder Super Starter",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "Använd de sidor du önskar och ta bort de övriga. Startpaketet innehåller många vanliga vyer för mobilappar, såsom inloggning och kontoregistrering, flikar och denna introduktionsvy.",
+  "INTRO_SLIDE1_TITLE": "We 💙  DNN",
+  "INTRO_SLIDE1_DESCRIPTION": "Let's face it - sometimes it's just hard to keep up with everything that is going on.",
 
-  "TUTORIAL_SLIDE3_TITLE": "Komma igång",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Behöver du hjälp? Läs README-dokumentet som innehåller en fullständig handledning för Super Starter.",
+  "INTRO_SLIDE2_TITLE": "We 💙  DNN Community",
+  "INTRO_SLIDE2_DESCRIPTION": "Within each and every <strong>DNN Community</strong> member, there is a unique and valued talent waiting to be discovered and shared.",
 
-  "SETTINGS_TITLE": "Inställningar",
-  "SETTINGS_OPTION1": "Alternativ 1",
-  "SETTINGS_OPTION2": "Alternativ 2",
-  "SETTINGS_OPTION3": "Alternativ 3",
-  "SETTINGS_OPTION4": "Alternativ 4",
+  "INTRO_SLIDE3_TITLE": "We 💙  DNN Extensibility",
+  "INTRO_SLIDE3_DESCRIPTION": "<strong>DNN Platform</strong> is known for being a powerful framework that can be extended in so many ways.",
 
-  "SETTINGS_PAGE_PROFILE": "Redigera profil",
+  "INTRO_SLIDE4_TITLE": "Discover 💙 ",
 
-  "WELCOME_TITLE": "Välkommen",
+  "WELCOME_INTRO": "Quickly check the pulse of the DNN Open Source Community",
+  "WELCOME_OPTION_1": "DISCOVER",
+  "WELCOME_OPTION_2": "EXPLORE",
 
-  "LOGIN_TITLE": "Logga in",
-  "LOGIN_ERROR": "Det gick inte att logga in. Kontrollera inloggningsuppgifterna och försök igen.",
-  "LOGIN_BUTTON": "Logga in",
-  "SIGNUP_TITLE": "Skapa konto",
-  "SIGNUP_ERROR": "Det gick inte att skapa ett konto. Kontrollera dina uppgifter och försök igen.",
-  "SIGNUP_BUTTON": "Skapa konto",
+  "SETTINGS_TITLE": "Settings",
+  "SETTINGS_OPTION1": "Option 1",
+  "SETTINGS_OPTION2": "Option 2",
+  "SETTINGS_OPTION3": "Option 3",
+  "SETTINGS_OPTION4": "Option 4",
 
-  "LIST_MASTER_TITLE": "Inlägg",
+  "SETTINGS_PROFILE_BUTTON": "Edit Profile",
 
-  "ITEM_CREATE_TITLE": "Nytt inlägg",
-  "ITEM_CREATE_CHOOSE_IMAGE": "Lägg till bild",
+  "SETTINGS_PAGE_PROFILE": "Edit Profile",
 
-  "CARDS_TITLE": "Socialt",
+  "WELCOME_TITLE": "Welcome",
 
-  "SEARCH_TITLE": "Sök"
+  "LOGIN_TITLE": "Sign in",
+  "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
+  "LOGIN_BUTTON": "Sign in",
+  "SIGNUP_TITLE": "Sign up",
+  "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
+  "SIGNUP_BUTTON": "Sign up",
+
+  "REPOS_TITLE": "Repositories",
+
+  "SEARCH_TITLE": "Search",
+  "SEARCH_PLACEHOLDER": "Search, e.g. \"Theme\""
 }

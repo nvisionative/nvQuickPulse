@@ -1,0 +1,13 @@
+page-repos {
+    .searchbar {
+        background-color: color($colors, primary);
+        padding: 10px;
+    }
+    .button-inner {
+        color: #fff;
+    }
+    .repo-count {
+        color: color($colors, primary);
+        font-weight: bold;
+    }
+}
