@@ -1,5 +1,5 @@
 // Page user lands on after opening app and without a session
-export const FirstRunPage = 'ReposPage';
+export const FirstRunPage = 'IntroPage';
 
 // Main page  user will see as they use app over a long period of time
 export const MainPage = 'ReposPage';
