@@ -29,7 +29,7 @@ export class IntroPage {
       "INTRO_SLIDE3_DESCRIPTION",
     ]).subscribe(
       (values) => {
-        console.log('Loaded values', values);
+        //console.log('Loaded values', values);
         this.slides = [
           {
             title: values.INTRO_SLIDE1_TITLE,

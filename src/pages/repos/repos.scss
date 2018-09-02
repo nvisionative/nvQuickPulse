@@ -3,7 +3,7 @@ page-repos {
         background-color: color($colors, primary);
         padding: 10px;
     }
-    .button-inner {
+    .button-inner, .card h1 {
         color: #fff;
     }
     .repo-count {

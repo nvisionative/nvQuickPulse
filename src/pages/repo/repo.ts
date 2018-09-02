@@ -3,8 +3,8 @@ import { IonicPage, NavController, NavParams, LoadingController } from 'ionic-an
 import moment from 'moment';
 
 import { Repos } from '../../providers';
-import { Observable } from 'rxjs/Observable';
-import { LoginPage } from '../login/login';
+//import { Observable } from 'rxjs/Observable';
+//import { LoginPage } from '../login/login';
 //import { Search } from '../../models/search';
 
 @IonicPage()
@@ -39,7 +39,7 @@ export class RepoPage {
     loading.present();
 
     this.repo = navParams.get('repo');
-    console.log(this.repo);
+    //console.log(this.repo);
     this.getReleases(this.repo.full_name);
     this.getContributors(this.repo.full_name);
     this.getOpenPullRequests(this.repo.full_name);
@@ -52,7 +52,7 @@ export class RepoPage {
     let reps = this.repos.getReleases(full_name).subscribe(
       res => {
         this.releases = res;
-        console.log(res);
+        //console.log(res);
       }
     );
   }
@@ -61,7 +61,7 @@ export class RepoPage {
     let reps = this.repos.getContributors(full_name).subscribe(
       res => {
         this.contributors = res;
-        console.log(res);
+        //console.log(res);
       }
     );
   }
@@ -70,7 +70,7 @@ export class RepoPage {
     let reps = this.repos.getOpenPullRequests(full_name, {state: 'open'}).subscribe(
       res => {
         this.pulls = res;
-        console.log(res);
+        //console.log(res);
       }
     );
   }
@@ -82,8 +82,8 @@ export class RepoPage {
         this.trafficClones.clones.forEach(element => {
           //this.clones.series.push({"name": this.trafficClones.clones.timestamp, "value": this.trafficClones.clones.count});
         });
-        console.log(res);
-        console.log(this.clones);
+        //console.log(res);
+        //console.log(this.clones);
       }
     );
   }
@@ -95,8 +95,8 @@ export class RepoPage {
         for(let i=0; i<this.commits.length; i++) {
           //this.commitsChart.push(this.commits[i].week);//{ "name": this.commits[i].week, "value": this.commits[i].total });
         }
-        console.log(res);
-        console.log(this.commitsChart);
+        //console.log(res);
+        //console.log(this.commitsChart);
       }
     );
   }
@@ -150,7 +150,7 @@ export class RepoPage {
   };
 
   onSelect(event) {
-    console.log(event);
+    //console.log(event);
   }
 
   formatDateTime(dateTime) {

@@ -3,7 +3,7 @@ import { IonicPage, ModalController, NavController, InfiniteScroll, Keyboard, Lo
 import moment from 'moment';
 //import { HttpParams } from '@angular/common/http';
 
-import { SearchRepos } from '../../models/search-repos';
+//import { SearchRepos } from '../../models/search-repos';
 import { Searches } from '../../providers';
 
 @IonicPage()
@@ -70,11 +70,11 @@ export class ReposPage {
   }
 
   doRefresh(refresher) {
-    console.log('Begin async operation', refresher);
+    //console.log('Begin async operation', refresher);
     this.loadData('');
 
     setTimeout(() => {
-      console.log('Async operation has ended');
+      //console.log('Async operation has ended');
       refresher.complete();
     }, 2000);
   }
@@ -91,11 +91,11 @@ export class ReposPage {
           for(let i=0; i<this.data.items.length; i++) {
             this.currentItems.push(this.data.items[i]);
           }
-          console.log('totalData = ' + this.totalData + '; totalPage = ' + this.totalPage + '; page = ' + this.page);
-          console.log(res);
+          //console.log('totalData = ' + this.totalData + '; totalPage = ' + this.totalPage + '; page = ' + this.page);
+          //console.log(res);
         }
       );
-      console.log('Async operation has ended');
+      //console.log('Async operation has ended');
       event.complete();
     }, 2000);
   }
