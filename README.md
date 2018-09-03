@@ -1,5 +1,3 @@
-# nvQuickPulse
-
 ![nvQuickPulse](https://user-images.githubusercontent.com/4568451/45002935-942bce00-afaa-11e8-9418-da6082e61ded.png)
 
 We 💙  DNN
