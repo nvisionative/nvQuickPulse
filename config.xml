@@ -87,4 +87,6 @@
         <variable name="UPDATE_METHOD" value="auto" />
         <variable name="MAX_STORE" value="2" />
     </plugin>
+    <engine name="android" spec="~7.0.0" />
+    <engine name="ios" spec="~4.5.5" />
 </widget>
