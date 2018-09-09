@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.nvisionative.nvquickpulse" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.nvisionative.nvquickpulse" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>nvQuickPulse</name>
     <description>Quickly get the pulse of the great DNN open-source community</description>
     <author email="info@nvisionative.com" href="https://www.nvisionative.com/">nvisionative</author>
@@ -89,4 +89,5 @@
     </plugin>
     <engine name="android" spec="~7.0.0" />
     <engine name="ios" spec="~4.5.5" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
 </widget>

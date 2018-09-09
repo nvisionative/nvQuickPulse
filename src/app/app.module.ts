@@ -15,7 +15,7 @@ import { Repos, Searches, Settings, User, Api } from '../providers';
 import { MyApp } from './app.component';
 
 Pro.init('ba1d760e', {
-  appVersion: '1.0.1'
+  appVersion: '1.0.2'
 })
 
 @Injectable()
