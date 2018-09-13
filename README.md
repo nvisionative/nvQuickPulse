@@ -10,7 +10,7 @@ Quickly check the pulse of the DNN Open Source Community.  This app utilizes the
 
 Search and explore projects that otherwise would be very hard to find.
 
-[![getitongoogleplay](https://user-images.githubusercontent.com/4568451/45003198-d4d91680-afad-11e8-98e8-9c6a48f8f2dd.png)](https://play.google.com/store/apps/details?id=com.nvisionative.nvquickpulse) ![availableontheappstore](https://user-images.githubusercontent.com/4568451/45003194-cc80db80-afad-11e8-96b9-a91dcb4d8c1b.png)
+[![getitongoogleplay](https://user-images.githubusercontent.com/4568451/45003198-d4d91680-afad-11e8-98e8-9c6a48f8f2dd.png)](https://play.google.com/store/apps/details?id=com.nvisionative.nvquickpulse) [![availableontheappstore](https://user-images.githubusercontent.com/4568451/45003194-cc80db80-afad-11e8-96b9-a91dcb4d8c1b.png)](https://itunes.apple.com/us/app/nvquickpulse/id1435016792?mt=8&app=itunes&ign-mpt=uo%3D4)
 
 ## Table of Contents
 
